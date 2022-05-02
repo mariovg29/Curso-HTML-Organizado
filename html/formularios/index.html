@@ -7,12 +7,25 @@
     <title>Formularios</title>
 </head>
 <body>
+    <!-- <form> que incluirá toda la información que se quiere recoger en ese formulario -->
     <form>
+
+        <!-- <fieldset> organizar en grupos los campos de un formulario. -->
         <fieldset>
+
+            <!-- <legend> (leyenda) crea un título para un grupos los campos (<fieldset>) de un formulario. -->
             <legend>Datos personales</legend>
+
+            <!-- <label> representa una etiqueta para un elemento en una interfaz de usuario -->
             <label>Edad</label>
+
+            <!-- <input> se usa para crear controles 
+                interactivos para formularios basados en la web con el fin de recibir datos del usuario -->
             <input type="number" placeholder="Edad..">
+
+            <!-- <br/> produce un salto de línea en el texto (retorno de carro) -->
             <br/>
+
             <label>Contraseña</label>
             <input type="password" placeholder="Contraseña..""/>
             <br/>
@@ -21,10 +34,16 @@
             <br/>        
             <input type="submit" value="Accept">
             <br/>
+
+            <!-- <textarea> representa un control para la edición mutilínea de texto sin formato. -->
             <textarea></textarea>
+            <!-- <button> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios -->
             <button>Aceptar</button>
 
+            <!-- (<select>) de HTML representa un control que muestra un menú de opciones -->
             <select>
+
+                <!-- <option>  se usa para representar un item dentro de un <select> -->
                 <option value="goku">Goku</option>
                 <option value="gohan">Gohan</option>
                 <option value="vegeta">Vegeta</optionvalue>
