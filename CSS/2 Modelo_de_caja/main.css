@@ -1,0 +1,35 @@
+/* selectores */
+
+body{
+    /* fondo en formato hexadecimal #+6 caracteres */
+    background-color: #eee;
+}
+
+.caja{
+    background-color: #aaf;
+    /* exterior */
+    margin: 8px;
+    /* intermedio */
+    /* border-style: solid ; */
+    /* border-style: double ; */
+    /* border-style: groove ; */
+    /* border-style: ridge ; */
+    /* border-style: inset ; */
+    /* border-style: outset ; */
+    /* border-style: none ; */
+    /* border-style: hidden ; */
+    border-style: dotted ;
+    border-width: 8px ;
+    border-color: #faa;
+    border-top: 6px solid #afa;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+
+    /* interior */
+    padding: 8px;
+
+    /* color de texto */
+    color: #757;
+    
+}
