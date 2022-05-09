@@ -9,9 +9,11 @@ p{
     /* font-weight: normal; */
     font-weight: bold;
 
-
+    /* font-style permite definir el aspecto de una familia tipográfica entre los valores: normal, italic (cursiva) y oblique. */
     /* font-style: italic; */
     font-style: oblique;
+
+    
     /* font-size: 20px; */
     font-size: 1.5em;
 
