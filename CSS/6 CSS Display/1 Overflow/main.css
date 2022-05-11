@@ -1,0 +1,12 @@
+body{
+    background-color: #eee;
+}
+#over{
+    width: 100px;
+    height: 100px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow-x: scroll;
+}

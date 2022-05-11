@@ -1,0 +1,33 @@
+body{
+    background-color: #eee;
+
+}
+table{
+    width: 100%;
+    background-color: white;
+/* La propiedad border-collapse se utiliza para fusionar los bordes */
+    border-collapse: collapse;
+}
+/* La pseudo-clase nth-child se especifica con un único argumento, que representa el patrón para los elementos coincidentes. */
+/* Representa elementos cuya posición numérica en una serie de hermanos es par: 2, 4, 6, etc. */
+tr:nth-child(even){
+    background-color:#f2f2f2
+}
+/* (odd) Representa elementos cuya posición numérica en una serie de hermanos es impar: 1, 3, 5, etc.
+tr:nth-child(odd){
+    background-color:#f2f2f2
+} */
+td{
+    border: solid 1px #ddd;
+    padding: 8px;
+}
+/* dar estilo a cabecera de la tabla */
+table th{
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: #eee;
+}
+p{
+
+    font-family: "Times New Roman";
+
+    /* font-weight de especifica el peso o grueso de la letra normal bold o 0-900 de 100 en 100 */
+    /* font-weight: normal; */
+    font-weight: bold;
+
+    /* font-style permite definir el aspecto de una familia tipográfica entre los valores: normal, italic (cursiva) y oblique. */
+    /* font-style: italic; */
+    font-style: oblique;
+
+    
+    /* font-size: 20px; */
+    font-size: 1.5em;
+
+    color: #222fff;
+    text-align: justify;
+
+    /* text-indent indica la tabulación o indentación que se aplica a la primera línea de texto de un elemento. */
+    text-indent: 20px;
+
+    /* line-height establece la altura de una casilla remarcada por líneas. */
+    line-height: 1.5;
+
+    /* word-spacing define una cantidad adicional de espacio entre palabras */
+    word-spacing: 10px;
+
+    /* text-shadow agrega sombra al texto. Acepta una lista de sombras separadas por coma */
+    text-shadow: 5px 2px 2px rgba(0,0,0,0.3);
+}
+a {
+    text-decoration: none;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-decoration: none; */
+
+    /* text-transform especifica el cambio entre mayúsculas y minúsculas del texto de un elemento */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+
+    /* letter-spacing define una cantidad adicional de espacio entre caracteres */
+    letter-spacing: 3px;
+
+
+
+
+}
